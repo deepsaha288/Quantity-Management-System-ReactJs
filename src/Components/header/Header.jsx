@@ -1,7 +1,7 @@
 import React from 'react'
-import './Style.css';
+import '../header/Header.css'
 
- function Header() {
+ const Header =() => {
   return (
     <nav>
       <div className="div-header">
