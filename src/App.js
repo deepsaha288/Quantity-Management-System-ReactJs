@@ -1,13 +1,15 @@
-import logo from './logo.svg';
-import Home from './Components/Home';
+import React from 'react';
 import './App.css';
+ import  Dashboard  from '../src/pages/DashBoard.jsx';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <Home/>
-    </div>
+    <>
+      <Dashboard/> 
+
+    </>
   );
 }
-
 export default App;
