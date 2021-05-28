@@ -18,24 +18,24 @@ const Unit = (props) => {
             <div className="choose-type">
              <p className="pragraph">CHOOSE TYPE</p>
             </div>
-            <Grid container className="grid-container" spacing={3}>
+            <Grid container className="grid-container" spacing={1}>
                 <Grid item xs={12}>
                     <Grid container justify="center" spacing>
                         <Grid item className="box1" onClick ={()=>handelUnit('length')}>
                             <Paper className="paper1" >
-                                <img className="paperContainer1" src={image1} />
+                                <img className="paperContainer1" src={image1} alt="#" />
                                 Length
                          </Paper>
                         </Grid>
                         <Grid item className="box2" onClick ={()=>handelUnit('temperature')}>
                             <Paper className="paper2">
-                                <img className="paperContainer2" src={image2} />
+                                <img className="paperContainer2" src={image2} alt="#" />
                                 Temperature
                         </Paper>
                         </Grid>
                         <Grid item className="box3"onClick ={()=>handelUnit('volume')}>
                             <Paper className="paper3">
-                                <img className='paperContainer3' src={image3} />
+                                <img className='paperContainer3' src={image3} alt="#"/>
                                 Volume
                            </Paper>
                         </Grid>

@@ -1,6 +1,8 @@
- .form-head{   
-    font-size: 25px;
-    font-weight: 100;
+ .form-head{ 
+    display: flex; 
+    flex-direction: column; 
+    font-size: 20px;
+    font-weight: 100px;
     padding: 17px 0px;
     text-align: center;
     font-family: "Montserrat";
@@ -10,9 +12,9 @@
     background-color: #446DFF;
 } 
 .choose-content {
-    background-color: #f1f3f3;
     display: flex;
     flex-direction: column;
+    background-color:white;
     justify-content: start;
     padding-top: 50px;
 }
@@ -21,7 +23,7 @@
      display: flex;
     flex-direction:row;
     width: 48%;
-    margin-left:30%;
+    margin-left:27%;
 }
 
 .pragraph{
@@ -37,7 +39,7 @@
         position: relative;
         display: flex;
         flex-direction:column;
-        width: 50%;
+        width: 100% !important ;
         align-items: center;
         height: 33%;
 }
@@ -64,7 +66,7 @@
 }
 .paper1:hover {
     background: #EDFDF9 0% 0% no-repeat padding-box;
-    box-shadow: 0px 3px 6px #00000029;
+    box-shadow: 0px #00000029;
     border: 1px solid #0EC098;
     color: #0EC098;
     font-size: 17px;
